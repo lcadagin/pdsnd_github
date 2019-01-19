@@ -21,3 +21,6 @@ You do not talk about pdsnd_github
 
 ### Second Rule of pdsnd_github
 You do not talk about pdsnd_github
+
+### Effort
+Always do your best when working on the project
