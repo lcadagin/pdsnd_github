@@ -16,5 +16,8 @@ It's important to give proper credit. Add links to any repo that inspired you or
 ### Ballmer Peak
 When working on the project you must maintain a BAC between .129 and .138.
 
-### First Rule about pdsnd_github
+### First Rule of pdsnd_github
+You do not talk about pdsnd_github
+
+### Second Rule of pdsnd_github
 You do not talk about pdsnd_github
