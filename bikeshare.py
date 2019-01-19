@@ -12,7 +12,7 @@ weekday_selection = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'sa
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze.  Will prompt user again if invalid data is provided.
 
     Returns:
         (str) city - name of the city to analyze
@@ -29,7 +29,7 @@ def get_filters():
     month = input("Enter a specific month you would like to filter on (january, february, march, april, may, june) or type 'all': ").lower()
     while (month not in month_selection) and (month != 'all'):
         month = input('Does not compute, please try entering a valid selection (january, february, march, april, may, june, or all): ').lower()
-    
+
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Enter a specific day of the week you would like to filter on (monday, tuesday, wednesday, thursday, friday, saturday, sunday) or type 'all': ").lower()
     while (day not in weekday_selection) and (day != 'all'):
