@@ -28,12 +28,12 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("Enter a specific month you would like to filter on (january, february, march, april, may, june) or type 'all': ").lower()
     while (month not in month_selection) and (month != 'all'):
-        month = input('Does not compute, please try entering a valid selection (january, february, march, april, may, june, or all): ').lower()
+        month = input('Does not compute, please try entering a valid selection (january, february, march, april, may, june, or all) and check for spelling: ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Enter a specific day of the week you would like to filter on (monday, tuesday, wednesday, thursday, friday, saturday, sunday) or type 'all': ").lower()
     while (day not in weekday_selection) and (day != 'all'):
-        day = input('Does not compute, please try entering a valid selection (monday, tuesday, wednesday, thursday, friday, saturday, sunday, or all): ').lower()
+        day = input('Does not compute, please try entering a valid selection (monday, tuesday, wednesday, thursday, friday, saturday, sunday, or all) and check for spelling: ').lower()
 
     print('-'*40)
     return city, month, day
